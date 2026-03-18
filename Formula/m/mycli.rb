@@ -3,8 +3,8 @@ class Mycli < Formula
 
   desc "CLI for MySQL with auto-completion and syntax highlighting"
   homepage "https://www.mycli.net/"
-  url "https://files.pythonhosted.org/packages/e1/ee/ac6560393f6c865819fe65d556087055eb4309888d12b15a298b79730a08/mycli-1.65.0.tar.gz"
-  sha256 "3458bbef452c2f967c3a275202b23cf5cae83b46cd3a01a44793042bc2b5fbd0"
+  url "https://files.pythonhosted.org/packages/3e/02/f9411c55fcb0bae6af5f02404a324e59663359378ce48c283dff2abda7d7/mycli-1.65.1.tar.gz"
+  sha256 "82f5eee16e13a12a770ad07190c5bb9f0766f22edc77023ee0eca7612fbd6440"
   license "BSD-3-Clause"
 
   bottle do
@@ -124,8 +124,8 @@ class Mycli < Formula
   end
 
   resource "openai" do
-    url "https://files.pythonhosted.org/packages/56/87/eb0abb4ef88ddb95b3c13149384c4c288f584f3be17d6a4f63f8c3e3c226/openai-2.28.0.tar.gz"
-    sha256 "bb7fdff384d2a787fa82e8822d1dd3c02e8cf901d60f1df523b7da03cbb6d48d"
+    url "https://files.pythonhosted.org/packages/b4/15/203d537e58986b5673e7f232453a2a2f110f22757b15921cbdeea392e520/openai-2.29.0.tar.gz"
+    sha256 "32d09eb2f661b38d3edd7d7e1a2943d1633f572596febe64c0cd370c86d52bec"
   end
 
   resource "pluggy" do
@@ -209,13 +209,13 @@ class Mycli < Formula
   end
 
   resource "sqlglot" do
-    url "https://files.pythonhosted.org/packages/61/12/c3f7533fde302fcd59bebcd4c2e46d5bf0eef21f183c67995bbb010fb578/sqlglot-29.0.1.tar.gz"
-    sha256 "0010b4f77fb996c8d25dd4b16f3654e6da163ff1866ceabc70b24e791c203048"
+    url "https://files.pythonhosted.org/packages/2c/32/ffa8390ac039de6e18e6874b1464c4012db78d9a15790d0c56c2bf5d65bb/sqlglot-30.0.1.tar.gz"
+    sha256 "1191cc37654c944b9a1d020347b9e435e3b39bdbade9129f82aa5827e3641332"
   end
 
   resource "sqlglotc" do
-    url "https://files.pythonhosted.org/packages/2c/80/cae9e2bcdb6095c498d3eece04f7f8b6f6bc2b5c4b17c5a1bdfd8c14beff/sqlglotc-29.0.1.tar.gz"
-    sha256 "2b3116880e6f44c8cee2f690ae9ac58dfa23ce2921e6f67ea1715d70873a0d51"
+    url "https://files.pythonhosted.org/packages/e8/32/2390b515a6edcbff0d247d79047fd3527673fb8ccc2f6571a15a7eb75e71/sqlglotc-30.0.1.tar.gz"
+    sha256 "4067879c5cc7019d49ce5ea55bf27b048f726990182c452fe5b8d36a6100a21b"
   end
 
   resource "sqlite-fts4" do
