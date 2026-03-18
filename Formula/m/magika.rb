@@ -23,14 +23,8 @@ class Magika < Formula
 
   depends_on "pkgconf" => :build
   depends_on "rust" => :build
+  depends_on arch: :arm64
   depends_on "openssl@3"
-
-  # Fix x86_64 build compatibility for ort/ndarray, upstream PR ref,
-  # https://github.com/google/magika/pull/1312
-  patch do
-    url "https://github.com/chenrui333/magika/commit/f56ab8a0806c67a2ae87edc6cd032684d592b978.patch?full_index=1"
-    sha256 "7a3f701733c4df5ef0aceba3b7854f1d8e0f2a23c4fda95804911b0fa5e6ab9c"
-  end
 
   def install
     ENV["OPENSSL_NO_VENDOR"] = "1"
